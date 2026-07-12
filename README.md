@@ -1,6 +1,6 @@
 # finlight MCP Server
 
-[![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight)
+[![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp)
 
 Real-time financial news for AI agents. Connect Claude, ChatGPT, Cursor, or any MCP client to [finlight](https://finlight.me), a financial news API covering global markets, geopolitics, and company-level news with sentiment analysis and entity tagging.
 
