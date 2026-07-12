@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "me.finlight/news",
   "title": "finlight Financial News",
-  "description": "Real-time financial news for AI agents: search and filter articles by ticker, source, country and language, with sentiment scores and tagged company entities.",
+  "description": "Real-time financial news for AI agents: search by ticker and source, with sentiment and entities.",
   "version": "1.0.0",
   "websiteUrl": "https://finlight.me/mcp",
   "repository": {
