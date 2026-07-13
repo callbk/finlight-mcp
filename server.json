@@ -17,13 +17,13 @@
   ],
   "packages": [
     {
-      "registry": "npm",
-      "name": "finlight-mcp",
+      "registryType": "npm",
+      "identifier": "finlight-mcp",
       "version": "1.0.0",
       "runtime": "node",
-      "transport": [
-        "stdio"
-      ]
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
