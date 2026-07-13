@@ -3,7 +3,7 @@
   "name": "me.finlight/news",
   "title": "finlight Financial News",
   "description": "Real-time financial news for AI agents: search by ticker and source, with sentiment and entities.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://finlight.me/mcp",
   "repository": {
     "url": "https://github.com/callbk/finlight-mcp",
@@ -13,6 +13,17 @@
     {
       "type": "streamable-http",
       "url": "https://mcp.finlight.me"
+    }
+  ],
+  "packages": [
+    {
+      "registry": "npm",
+      "name": "finlight-mcp",
+      "version": "1.0.0",
+      "runtime": "node",
+      "transport": [
+        "stdio"
+      ]
     }
   ]
 }

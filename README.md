@@ -1,6 +1,8 @@
 # finlight MCP Server
 
-[![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp)
+`mcp-name: me.finlight/news`
+
+[![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp) [![npm](https://img.shields.io/npm/v/finlight-mcp)](https://www.npmjs.com/package/finlight-mcp)
 
 Real-time financial news for AI agents. Connect Claude, ChatGPT, Cursor, or any MCP client to [finlight](https://finlight.me), a financial news API covering global markets, geopolitics, and company-level news with sentiment analysis and entity tagging.
 
@@ -59,6 +61,29 @@ Add to your MCP settings (`.cursor/mcp.json`):
 ### ChatGPT (developer mode / connectors)
 
 Add `https://mcp.finlight.me` as a remote MCP server and complete the OAuth flow with your API key.
+
+### Stdio / local usage
+
+For MCP clients that only support stdio transport (or if you prefer a locally spawned process), use the npm wrapper:
+
+```bash
+npx finlight-mcp
+```
+
+This bridges stdio to the remote server via `mcp-remote`. Add it to any client config that takes a command + args:
+
+```json
+{
+  "mcpServers": {
+    "finlight": {
+      "command": "npx",
+      "args": ["-y", "finlight-mcp"]
+    }
+  }
+}
+```
+
+The OAuth flow is the same — a browser window will open for you to enter your API key on first use.
 
 ## How auth works
 

@@ -1,0 +1,37 @@
+{
+  "name": "finlight-mcp",
+  "version": "1.0.0",
+  "description": "Real-time financial news for AI agents: search by ticker, source, and language, with sentiment and entities.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "finlight-mcp": "./cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callbk/finlight-mcp"
+  },
+  "homepage": "https://finlight.me/mcp",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "financial-news",
+    "finance",
+    "news-api",
+    "sentiment-analysis",
+    "claude",
+    "ai-agents"
+  ],
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  }
+}
