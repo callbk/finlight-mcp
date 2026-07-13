@@ -1,6 +1,6 @@
 {
   "name": "finlight-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time financial news for AI agents: search by ticker, source, and language, with sentiment and entities.",
   "license": "MIT",
   "type": "module",
