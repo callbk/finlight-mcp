@@ -8,11 +8,16 @@ const require = createRequire(import.meta.url);
 const mcpRemotePkg = dirname(require.resolve("mcp-remote/package.json"));
 const mcpRemoteBin = resolve(mcpRemotePkg, "dist", "proxy.js");
 
-const child = spawn(
-  process.execPath,
-  [mcpRemoteBin, "https://mcp.finlight.me", ...process.argv.slice(2)],
-  { stdio: "inherit" }
-);
+const url = process.env.FINLIGHT_MCP_URL || "https://mcp.finlight.me";
+const args = [mcpRemoteBin, url];
+
+if (process.env.FINLIGHT_API_KEY) {
+  args.push("--header", `Authorization: Bearer ${process.env.FINLIGHT_API_KEY}`);
+}
+
+args.push(...process.argv.slice(2));
+
+const child = spawn(process.execPath, args, { stdio: "inherit" });
 
 const forward = (signal) => {
   child.kill(signal);

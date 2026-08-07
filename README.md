@@ -85,9 +85,28 @@ This bridges stdio to the remote server via `mcp-remote`. Add it to any client c
 
 The OAuth flow is the same — a browser window will open for you to enter your API key on first use.
 
+For headless or CI environments where no browser is available, set `FINLIGHT_API_KEY` to skip OAuth and authenticate directly:
+
+```json
+{
+  "mcpServers": {
+    "finlight": {
+      "command": "npx",
+      "args": ["-y", "finlight-mcp"],
+      "env": {
+        "FINLIGHT_API_KEY": "your-api-key"
+      }
+    }
+  }
+}
+```
+
 ## How auth works
 
-The server implements standard OAuth 2.0 with dynamic client registration and PKCE. During authorization you enter your finlight API key on a hosted page; the server never stores it. This means any MCP client that speaks OAuth works out of the box, no manual header configuration needed.
+The server supports two authentication methods:
+
+1. **OAuth 2.0** (default): Dynamic client registration with PKCE. A browser window opens for you to enter your finlight API key. Works out of the box with any MCP client that speaks OAuth.
+2. **API key via header**: Set the `FINLIGHT_API_KEY` environment variable to skip the browser flow. The key is sent as a Bearer token directly.
 
 ## About the data
 
