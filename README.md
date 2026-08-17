@@ -17,7 +17,7 @@ Real-time financial news for AI agents. Connect Claude, ChatGPT, Cursor, or any 
 Ask your AI assistant things like:
 
 - "What's the latest news on NVDA? Summarize sentiment."
-- "Any market-moving headlines from Reuters in the last 2 hours?"
+- "Any market-moving headlines in the last 2 hours?"
 - "Compare news coverage of the Fed decision across sources."
 - "Find recent articles about semiconductor export restrictions and list the companies mentioned."
 - "Which sources does finlight cover for Chinese market news?"
@@ -32,7 +32,7 @@ Ask your AI assistant things like:
 
 ## Setup
 
-You need a finlight API key. The free tier includes 5,000 requests per month: [sign up at app.finlight.me](https://app.finlight.me).
+You need a finlight API key. [Sign up at app.finlight.me](https://app.finlight.me) — the free tier is enough to try every tool below.
 
 ### Claude (web / desktop)
 
@@ -112,7 +112,7 @@ The server supports two authentication methods:
 
 ## About the data
 
-finlight aggregates and enriches financial news from curated, finance-relevant sources including major wire services, financial publishers, and regional sources (including Chinese-language financial media such as CLS, Caixin, Yicai, and East Money, with English canonical entity tagging). Articles include:
+finlight aggregates and enriches financial news from curated, finance-relevant sources including major wire services, financial publishers, and regional sources in Chinese, Japanese, Korean and Arabic (with English canonical entity tagging). Articles include:
 
 - Sentiment score with confidence
 - Tagged company entities with tickers, ISINs, and exchange listings
@@ -122,7 +122,7 @@ The MCP server uses the same data as the [REST and WebSocket APIs](https://docs.
 
 ## Rate limits and plans
 
-MCP requests count toward your API quota. Free tier: 5,000 requests/month. See [pricing](https://finlight.me/pricing) for paid tiers with real-time access, higher limits, and additional features.
+MCP requests count toward your API quota. See [pricing](https://finlight.me/pricing) for the current free-tier limit and for paid tiers with real-time access, higher limits, and additional features.
 
 ## Links
 
