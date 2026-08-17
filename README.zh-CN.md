@@ -6,7 +6,7 @@
 
 [![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp) [![npm](https://img.shields.io/npm/v/finlight-mcp)](https://www.npmjs.com/package/finlight-mcp)
 
-面向 AI 代理的实时财经新闻。将 Claude、ChatGPT、Cursor 或任何 MCP 客户端连接到 [finlight](https://finlight.me)。finlight 是一个财经新闻 API，覆盖全球市场、地缘政治和公司层面的新闻，并提供情感分析和公司实体标注。
+面向 AI 代理的实时财经新闻。将 Claude、ChatGPT、Cursor 或任何 MCP 客户端连接到 [finlight](https://finlight.me/zh)。finlight 是一个财经新闻 API，覆盖全球市场、地缘政治和公司层面的新闻，并提供情感分析和公司实体标注。
 
 **端点：** `https://mcp.finlight.me`（远程，streamable HTTP）
 **认证：** OAuth 2.0（连接时会提示你输入 finlight API 密钥）
@@ -118,17 +118,17 @@ finlight 聚合并增强来自精选财经相关来源的新闻，包括主要�
 - 标注的公司实体，含股票代码、ISIN 和交易所上市信息
 - 新闻源、语言、国家和发布元数据
 
-MCP 服务器与 [REST 和 WebSocket API](https://docs.finlight.me) 使用相同的数据。
+MCP 服务器与 [REST 和 WebSocket API](https://docs.finlight.me/zh/v2) 使用相同的数据。
 
 ## 速率限制与套餐
 
-MCP 请求计入你的 API 配额。各付费套餐的实时访问、更高限额和其他功能见 [pricing](https://finlight.me/pricing)。
+MCP 请求计入你的 API 配额。各付费套餐的实时访问、更高限额和其他功能见 [pricing](https://finlight.me/zh/pricing)。
 
 ## 链接
 
-- 网站：[finlight.me](https://finlight.me)
-- MCP 产品页：[finlight.me/mcp](https://finlight.me/mcp)
-- API 文档：[docs.finlight.me](https://docs.finlight.me)
+- 网站：[finlight.me](https://finlight.me/zh)
+- MCP 产品页：[finlight.me/mcp](https://finlight.me/zh/mcp)
+- API 文档：[docs.finlight.me](https://docs.finlight.me/zh/v2)
 - Discord：[discord.gg/XUs9JYZd24](https://discord.com/invite/XUs9JYZd24)
 - 支持：通过 [app.finlight.me](https://app.finlight.me) 或 Discord 获取支持
 

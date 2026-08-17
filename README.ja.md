@@ -6,7 +6,7 @@
 
 [![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp) [![npm](https://img.shields.io/npm/v/finlight-mcp)](https://www.npmjs.com/package/finlight-mcp)
 
-AI エージェント向けのリアルタイム財経ニュース。Claude、ChatGPT、Cursor をはじめ、あらゆる MCP クライアントを [finlight](https://finlight.me) に接続できます。finlight は、グローバル市場、地政学、企業レベルのニュースをカバーする金融ニュース API で、センチメント分析と企業エンティティのタグ付けを提供します。
+AI エージェント向けのリアルタイム財経ニュース。Claude、ChatGPT、Cursor をはじめ、あらゆる MCP クライアントを [finlight](https://finlight.me/ja) に接続できます。finlight は、グローバル市場、地政学、企業レベルのニュースをカバーする金融ニュース API で、センチメント分析と企業エンティティのタグ付けを提供します。
 
 **エンドポイント:** `https://mcp.finlight.me`（リモート、streamable HTTP）
 **認証:** OAuth 2.0（接続時に finlight API キーの入力を求められます）
@@ -118,17 +118,17 @@ finlight は、厳選された金融関連ソースからニュースを集約�
 - タグ付けされた企業エンティティ（ティッカー、ISIN、上場取引所付き）
 - ソース、言語、国、公開日時のメタデータ
 
-MCP サーバーは [REST および WebSocket API](https://docs.finlight.me) と同じデータを使用します。
+MCP サーバーは [REST および WebSocket API](https://docs.finlight.me/ja/v2) と同じデータを使用します。
 
 ## レート制限とプラン
 
-MCP のリクエストは API クォータにカウントされます。リアルタイムアクセス、より高い上限、追加機能を含む有料プランは [pricing](https://finlight.me/pricing) を参照してください。
+MCP のリクエストは API クォータにカウントされます。リアルタイムアクセス、より高い上限、追加機能を含む有料プランは [pricing](https://finlight.me/ja/pricing) を参照してください。
 
 ## リンク
 
-- Web サイト: [finlight.me](https://finlight.me)
-- MCP 製品ページ: [finlight.me/mcp](https://finlight.me/mcp)
-- API ドキュメント: [docs.finlight.me](https://docs.finlight.me)
+- Web サイト: [finlight.me](https://finlight.me/ja)
+- MCP 製品ページ: [finlight.me/mcp](https://finlight.me/ja/mcp)
+- API ドキュメント: [docs.finlight.me](https://docs.finlight.me/ja/v2)
 - Discord: [discord.gg/XUs9JYZd24](https://discord.com/invite/XUs9JYZd24)
 - サポート: [app.finlight.me](https://app.finlight.me) または Discord から
 

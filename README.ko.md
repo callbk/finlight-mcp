@@ -6,7 +6,7 @@
 
 [![smithery badge](https://smithery.ai/badge/callbk/finlight)](https://smithery.ai/servers/callbk/finlight) [![finlight-mcp MCP server](https://glama.ai/mcp/servers/callbk/finlight-mcp/badges/score.svg)](https://glama.ai/mcp/servers/callbk/finlight-mcp) [![npm](https://img.shields.io/npm/v/finlight-mcp)](https://www.npmjs.com/package/finlight-mcp)
 
-AI 에이전트를 위한 실시간 금융 뉴스. Claude, ChatGPT, Cursor를 비롯한 모든 MCP 클라이언트를 [finlight](https://finlight.me)에 연결할 수 있습니다. finlight는 글로벌 시장, 지정학, 기업 단위 뉴스를 다루는 금융 뉴스 API로, 감성 분석과 기업 엔티티 태깅을 제공합니다.
+AI 에이전트를 위한 실시간 금융 뉴스. Claude, ChatGPT, Cursor를 비롯한 모든 MCP 클라이언트를 [finlight](https://finlight.me/ko)에 연결할 수 있습니다. finlight는 글로벌 시장, 지정학, 기업 단위 뉴스를 다루는 금융 뉴스 API로, 감성 분석과 기업 엔티티 태깅을 제공합니다.
 
 **엔드포인트:** `https://mcp.finlight.me` (원격, streamable HTTP)
 **인증:** OAuth 2.0 (연결 시 finlight API 키 입력을 요청합니다)
@@ -118,17 +118,17 @@ finlight는 엄선된 금융 관련 소스의 뉴스를 수집하고 보강합�
 - 태깅된 기업 엔티티(티커, ISIN, 상장 거래소 포함)
 - 소스, 언어, 국가, 발행 메타데이터
 
-MCP 서버는 [REST 및 WebSocket API](https://docs.finlight.me)와 동일한 데이터를 사용합니다.
+MCP 서버는 [REST 및 WebSocket API](https://docs.finlight.me/ko/v2)와 동일한 데이터를 사용합니다.
 
 ## 요청 한도와 플랜
 
-MCP 요청은 API 쿼터에 포함됩니다. 실시간 액세스, 더 높은 한도, 추가 기능이 포함된 유료 플랜은 [pricing](https://finlight.me/pricing)을 참고하세요.
+MCP 요청은 API 쿼터에 포함됩니다. 실시간 액세스, 더 높은 한도, 추가 기능이 포함된 유료 플랜은 [pricing](https://finlight.me/ko/pricing)을 참고하세요.
 
 ## 링크
 
-- 웹사이트: [finlight.me](https://finlight.me)
-- MCP 제품 페이지: [finlight.me/mcp](https://finlight.me/mcp)
-- API 문서: [docs.finlight.me](https://docs.finlight.me)
+- 웹사이트: [finlight.me](https://finlight.me/ko)
+- MCP 제품 페이지: [finlight.me/mcp](https://finlight.me/ko/mcp)
+- API 문서: [docs.finlight.me](https://docs.finlight.me/ko/v2)
 - Discord: [discord.gg/XUs9JYZd24](https://discord.com/invite/XUs9JYZd24)
 - 지원: [app.finlight.me](https://app.finlight.me) 또는 Discord를 통해 문의
 
